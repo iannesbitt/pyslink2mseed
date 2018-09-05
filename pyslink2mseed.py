@@ -8,8 +8,9 @@ import os
 client_addr = 'rtserve.iris.washington.edu:18000'
 net = 'NE' # network code
 sta = 'WES' # station name
-loc = '00'
 cha = 'HHZ' # channel
+
+loc = '00' # Since obspy doesn't take location codes, this only affects the filename
 
 day = UTCDateTime.now().strftime('%Y.%j')
 i = 1
