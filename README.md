@@ -1,8 +1,8 @@
-# slink2mseed
+# pyslink2mseed
 Save data for a specific seismic network/station/channel from a seedlink server.
 
 ## Usage
-Configuration is pretty straightforward. Just edit the first few lines of the `slink2mseed.py` script.
+Configuration is pretty straightforward. Just edit the first few lines of the `pyslink2mseed.py` script.
 
 #### Specify the server you'd like to connect to
 To connect to a Raspberry Shake on the local network, change
