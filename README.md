@@ -1,6 +1,8 @@
 # pyslink2mseed
 Save data for a specific seismic network/station/channel from a seedlink server. This script was originally intended to save network bandwidth of Raspberry Shakes and webservers alike. I used to transfer my data every two minutes via `scp`...now, thankfully, I don't. This script will save a miniSEED file every 50 seconds or so, and datestamped filenames will be created on the fly.
 
+NB: This is NOT a replacement for Earthworm's `ew2mseed` program, which has significantly more built-in failover functionality and does not rely on quite so many heavy libraries to run. It simply is meant to be a placeholder for a larger and harder to set up Earthworm installation.
+
 ## Installation and requirements
 
 `pyslink2mseed` requires [`obspy`](https://www.obspy.org/), which requires [Anaconda](https://www.anaconda.com/download). Follow the ObsPy [instructions](https://github.com/obspy/obspy/wiki#installation) for installing via Anaconda, then download and run this script.
