@@ -2,7 +2,7 @@
 Save data for a specific seismic network/station/channel from a seedlink server.
 
 ## Usage
-Configuration is pretty straightforward. Just edit the first few lines of the `pyslink2mseed.py` script.
+Configuration is pretty straightforward. Just edit the first few lines of the `pyslink2mseed.py` script. If you're looking to 
 
 #### 1. Specify the server you'd like to connect to:
 To connect to a Raspberry Shake on the local network, change
@@ -19,7 +19,6 @@ If your Shake's name is RCB43 and it's a short-period instrument (SHZ), your nex
 ```python
 net = 'AM' # network code
 sta = 'RCB43' # station name
-loc = '00'
 cha = 'SHZ' # channel
 ```
 
