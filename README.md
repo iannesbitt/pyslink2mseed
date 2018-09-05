@@ -1,8 +1,10 @@
 # pyslink
-Save data for a specific seismic network/station/channel from a seedlink server
+Save data for a specific seismic network/station/channel from a seedlink server.
 
 ## Usage:
-Change
+Configuration is pretty straightforward. Just edit the first few lines of the `slink2mseed.py` script.
+
+To connect to a Raspberry Shake on the local network, change
 ```python
 client_addr = 'rtserve.iris.washington.edu:18000'
 ```
@@ -10,7 +12,6 @@ to, for example,
 ```python
 client_addr = 'raspberryshake.local:18000'
 ```
-to connect to a Raspberry Shake on the local network.
 
 If your Shake's name is RCB43 and it's a short-period instrument (SHZ), your next few lines will be as follows:
 ```python
