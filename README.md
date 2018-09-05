@@ -41,6 +41,8 @@ python pyslink2mseed.py > /dev/null 2>&1 &
 ```
 which will suppress all output.
 
+I think it's possible to run multiple instances of this script without a problem, but I haven't tested extensively. Let me know what you find.
+
 ## Contact
 
 Questions, comments: ian dot nesbitt at gmail dot com
