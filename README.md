@@ -26,6 +26,12 @@ sta = 'RCB43' # station name
 cha = 'SHZ' # channel
 ```
 
+#### 3. Run the script:
+```bash
+source activate obspy     # assuming you have an Anaconda environment named with obspy like in the [obspy docs](https://github.com/obspy/obspy/wiki/Installation-via-Anaconda)
+python pyslink2mseed.py
+```
+
 That's basically it for configuration. The script will write every minute or so to a miniSEED file that looks like `AM.RCB43.00.SHZ.D.2018.237` where the last two numbers are year in YYYY format and day of year in DDD format. Dates will automatically increment.
 
 Questions, comments: ian dot nesbitt at gmail dot com
