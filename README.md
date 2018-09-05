@@ -3,7 +3,7 @@ Save data for a specific seismic network/station/channel from a seedlink server.
 
 ## Installation and requirements
 
-`pyslink2mseed` requires `[obspy](https://www.obspy.org/)`, which requires [Anaconda](https://www.anaconda.com/download). Follow the ObsPy [instructions](https://github.com/obspy/obspy/wiki#installation) for installing via Anaconda, then download and run this script.
+`pyslink2mseed` requires [`obspy`](https://www.obspy.org/), which requires [Anaconda](https://www.anaconda.com/download). Follow the ObsPy [instructions](https://github.com/obspy/obspy/wiki#installation) for installing via Anaconda, then download and run this script.
 
 ## Usage
 Configuration is pretty straightforward. Just edit the first few lines of the `pyslink2mseed.py` script. If you're looking to find stations to get data from, you should take a look at the [IRIS Station Map](http://geoserver.iris.edu/stations) and the [IRIS Metadata Aggregator](http://ds.iris.edu/mda).
