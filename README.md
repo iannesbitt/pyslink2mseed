@@ -26,4 +26,5 @@ cha = 'SHZ' # channel
 That's basically it for configuration. The script will write every minute or so to a miniseed file that looks like `AM.RCB43.00.SHZ.D.2018.237` where the last two numbers are year in YYYY format and day of year in DDD format. Dates will automatically increment.
 
 Questions, comments: ian dot nesbitt at gmail dot com
+
 Bugs, suggestions: [submit an issue](https://github.com/iannesbitt/pyslink2mseed/issues)
