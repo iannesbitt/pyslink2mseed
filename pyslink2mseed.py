@@ -9,7 +9,7 @@ client_addr = 'rtserve.iris.washington.edu:18000'
 net = 'NE' # network code
 sta = 'WES' # station name
 loc = '00'
-cha = 'BHZ' # channel
+cha = 'HHZ' # channel
 
 day = UTCDateTime.now().strftime('%Y.%j')
 i = 1
