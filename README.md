@@ -2,7 +2,7 @@
 Save data for a specific seismic network/station/channel from a seedlink server.
 
 ## Usage
-Configuration is pretty straightforward. Just edit the first few lines of the `pyslink2mseed.py` script. If you're looking to 
+Configuration is pretty straightforward. Just edit the first few lines of the `pyslink2mseed.py` script. If you're looking to find stations to get data from, you should take a look at the [IRIS Station Map](http://geoserver.iris.edu/stations) and the [IRIS Metadata Aggregator](http://ds.iris.edu/mda).
 
 #### 1. Specify the server you'd like to connect to:
 To connect to a Raspberry Shake on the local network, change
