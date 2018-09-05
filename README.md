@@ -43,6 +43,12 @@ which will suppress all output.
 
 I think it's possible to run multiple instances of this script without a problem, but I haven't tested extensively. Let me know what you find.
 
+## Bugs
+- Doesn't work with certain versions of `numpy`. File save fails because of integer type error:
+```
+Exception: Unsupported data type int32 in Stream[0].data
+```
+
 ## Contact
 
 Questions, comments: ian dot nesbitt at gmail dot com
